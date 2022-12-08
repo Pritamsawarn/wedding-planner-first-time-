@@ -1,0 +1,108 @@
+
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+body{
+    background-image: url("../Desktop/yup.jpg");
+    background-size: cover;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-color: linear-
+    gradient(rgba(0,0,0,0.75)),rgba(0,0,0,0.75),url(thu.jpg);
+    background-size: cover;
+    background-position: left;
+
+}
+.pritam{
+    width: 90%;
+    margin: auto;
+    padding: 85px 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.logo{
+    width: 20px;
+    cursor: pointer;
+}
+.pritam ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+.pritam ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 0%;
+}
+.pritam ul li::after{
+    content: '';
+    height: 8px;
+    width: 0;
+    background: purple;
+    position: absolute;
+    left: 5%;
+    bottom: 5px;
+    transition: 0.5s;
+}
+.pritam ul li:hover::after{
+    width: 98%;
+}
+.banshi{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: red;
+    left: 50%;
+    background-color: blue;
+}
+.banshi h2{
+    font-size: 30px;
+    margin-top: 0;
+}
+.banshi p6{
+    margin: 3px;
+    font-weight: 50;
+    line-height: 18px;
+    size: 3px;
+
+}
+button{
+    width: 150px;
+    padding: 15px;
+    text-align: center;
+    margin: 15px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid red;
+    background: transparent;
+    color: rgb(2, 2, 2);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+   
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
